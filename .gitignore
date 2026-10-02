@@ -65,7 +65,6 @@ docs/distillation/examples/
 !requirements-mkdocs.txt
 
 # VSCode
-.vscode/
 
 # DS Store
 .DS_Store
@@ -142,3 +141,5 @@ fastvideo/tests/ssim/reference_videos/**
 *.nvimlog
 .nvimlog
 .python-version
+config.bat
+node_modules

@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite dev --host 0.0.0.0",
-    "build": "tsc && node scripts/build.mjs",
+    "dev": "node init && vite dev --host 0.0.0.0",
+    "build": "node init && tsc && node scripts/build.mjs",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
